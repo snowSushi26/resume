@@ -1,0 +1,87 @@
+@import '../node_modules/normalize.css/normalize.css';
+
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #34495e;
+  --background-color: #ffffff;
+  --text-color: #2c3e50;
+  --accent-color: #e67e22;
+}
+
+body {
+  font-family: Pretendard, 'Pretendard Variable', -apple-system, BlinkMacSystemFont,
+    'Apple SD Gothic Neo', Roboto, 'Noto Sans KR', 'Segoe UI', 'Malgun Gothic', 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 1.25rem;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.625rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.625rem;
+}
+
+h3 {
+  font-size: 1.1875rem;
+  margin-top: 0.9375rem;
+}
+
+p {
+  font-weight: 400;
+  margin: 0.3125rem 0;
+}
+
+.contact-info {
+  margin: 1.25rem 0;
+}
+
+.experience {
+  margin-top: 1.25rem;
+}
+
+.tech-stack {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tech-stack li {
+  background: var(--accent-color);
+  color: #ffffff;
+  padding: 0.3125rem;
+  margin: 0.3125rem 0;
+  border-radius: 0.3125rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
