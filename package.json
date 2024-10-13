@@ -6,7 +6,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "build": "rm -rf docs && parcel build src/index.html --dist-dir docs --public-url /resume/ --no-source-maps"
+    "build": "rm -rf docs && parcel build src/index.html --dist-dir docs --public-url /resume/ --no-source-maps --no-cache"
   },
   "devDependencies": {
     "parcel": "^2.12.0"
