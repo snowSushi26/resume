@@ -201,20 +201,6 @@ li li::before {
     font-size: 1.05rem;
   }
 
-  .experience:not(:last-child) {
-    position: relative;
-    padding-bottom: 4rem;
-  }
-  .experience:not(:last-child)::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 1px;
-    width: 100%;
-    background-color: var(--divider-color);
-  }
-
   section:not(:last-child)::before {
     width: 100%;
   }
