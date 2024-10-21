@@ -44,7 +44,7 @@
               <time>2024. 1 ~ 현재</time>
               <ul>
                 <li>초기 설계 및 환경 세팅</li>
-                <li>공통 테마 및 공통 컴포넌트 개발</li>
+                <li>글로벌 테마 및 공통 컴포넌트 개발</li>
                 <li>Headless UI 설계 및 개발</li>
               </ul>
               <h5>사용 기술</h5>
@@ -54,6 +54,7 @@
               <h4>Zuicy Admin</h4>
               <time>2023. 4 ~ 현재</time>
               <ul>
+                <li>컴포넌트 재설계 및 UI/UX 개선을 통해 서비스 성능 최적화</li>
                 <li>
                   공통 컴포넌트 및 UI&UX 개선
                   <ul>
@@ -67,20 +68,19 @@
                   조회페이지 내 검색 사용자 환경 개선
                   <ul>
                     <li>
-                      검색 히스토리를 스토어에 저장 하던 레거시 구조를 URL 기반 상태관리하는 구조로
-                      변경
+                      검색 히스토리를 스토어에 저장 하던 레거시 구조 → URL 기반 상태 관리로 전환
                     </li>
                     <li style="color: red">페이지도 포함</li>
                   </ul>
                 </li>
                 <li>
-                  CRA to Vite(with SWC) 마이그레이션
-                  <!-- <ul>
-                      <li>빌드 속도 약 3배 개선 (변경 전 약 30초 → 변경 후 약 10초)</li>
-                    </ul> -->
+                  레거시 코드 마이그레이션
+                  <ul>
+                    <li>CRA to Vite(with SWC)</li>
+                  </ul>
                 </li>
 
-                <li>컴포넌트 & 단위 테스트 및 목 데이터 구현</li>
+                <li>컴포넌트 및 기능 별 단위 테스트 구현</li>
               </ul>
               <h5>사용 기술</h5>
               <p>Typescript, React, SWR, Emotion, Vite, Vitest, MSW</p>
@@ -89,25 +89,34 @@
               <h4>Zuicy Studio</h4>
               <time>2023. 12 - 2024. 7</time>
               <ul>
-                <li>공통 컴포넌트 및 UI&UX 개선</li>
                 <li>
-                  노드 기반 편집기 개선
+                  노드 기반 인터랙션 편집기 개선
+                  <a href="https://zuicy_ai.circle.so/c/guide/06"> (가이드 문서)</a>
                   <ul>
-                    <li>다중 중첩 연산 ↔ 노드기반으로 변환 기능 개발</li>
-                    <li>편집기 내 댓글 구현 (댓글 핀 위치 계산 및 CRUD)</li>
-                    <!-- <li>Redo&Undo 기능 설계</li> -->
+                    <li>기존의 추상화된 인터랙션 기능들을 역할별 컴포넌트로 모듈화</li>
+                    <li>
+                      인터랙션 조건 데이터 및 UI 상호변환 (단일 및 중첩 연산 조건 데이터 ↔ 연결 및
+                      조합 가능한 노드 UI)
+                    </li>
                   </ul>
                 </li>
-                <li>컴포넌트 및 단위 테스트 구현</li>
+                <li>편집기 내 댓글 및 핀 기능 구현</li>
+                <li>컴포넌트 및 기능 별 단위 테스트 구현</li>
               </ul>
               <h5>사용 기술</h5>
-              <p>Typescript, React, Recoil, Emotion, Jest, React Flow</p>
+              <p>Typescript, React, Recoil, Emotion, React Flow, Jest</p>
             </div>
             <div class="project">
               <h4>Viewinter</h4>
               <time>2022. 10 - 2023. 12</time>
               <ul>
-                <li>레거시 마이그레이션</li>
+                <li>
+                  레거시 마이그레이션
+                  <ul>
+                    <li>Webpack, React 및 관련 라이브러리 버전업</li>
+                    <li>CRA → Vite, JS → TS, 클래스 컴포넌트 → 함수형 컴포넌트</li>
+                  </ul>
+                </li>
                 <li>서비스 리뉴얼 개발 및 코드개선</li>
               </ul>
               <h5>사용 기술</h5>
@@ -123,6 +132,16 @@
               </ul>
               <h5>사용 기술</h5>
               <p>Typescript, React, Redux Toolkit, SCSS, D3</p>
+            </div>
+            <div class="project">
+              <h4>팀 문화 기여</h4>
+              <time>2022. 10 - 현재</time>
+              <ul>
+                <li>기존 코드 컨벤션 개선 및 ESLint 규칙에 따른 코드 품질 개선</li>
+                <li>오프라인 코드 리뷰 개선 및 PR 리뷰 문화 주도</li>
+                <li>회고 문화 제안 및 지속적인 개선 주도</li>
+                <li>기존 스터디의 고찰 및 개선 주도</li>
+              </ul>
             </div>
           </div>
         </div>
